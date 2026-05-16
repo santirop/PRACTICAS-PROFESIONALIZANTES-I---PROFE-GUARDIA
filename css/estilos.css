@@ -1,0 +1,26 @@
+/*selector cuerpo*/
+body{
+/*bloque de declaraciones*/
+background-color: rgb(158, 123, 58);/*Color de fondo*/
+color:rgb(255, 255, 255);/*COLOR DE LA TIPOGRAFIA*/
+font-family: Arial;/*CAMBIAR FORMATO DE TIPOGRAFIA*/
+font-size: 3em;/*CAMBIAR EL TAMAÑO DE LA TIPOGRAFIA*/
+text-align: center;
+
+h1{
+    background-color: grey;
+    color: peru;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+h2{
+    background-color:white;
+    color:teal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+}
