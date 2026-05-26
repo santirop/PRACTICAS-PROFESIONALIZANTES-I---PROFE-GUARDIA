@@ -1,0 +1,9 @@
+@media(min-width:600px) and (max-higth: 800px){
+    body{
+        background-color: black;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+        margin: 0;
+
+    }
+}
