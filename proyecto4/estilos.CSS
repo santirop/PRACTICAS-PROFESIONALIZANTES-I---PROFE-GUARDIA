@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contenedor login */
+.login{
+    width: 350px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+  
+}
+/* Título principal */
+.login h1{
+    color: #111;
+    margin-bottom: 10px;
+}
+h1{
+    color: #e6b980;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Subtítulo */
+.login h2{
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+.login input{
+    width: 250px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Efecto al seleccionar */
+.login input:focus{
+    border: 1px solid #000;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+/* Botón */
+button{
+    width: 270px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover botón */
+button:hover{
+    background-color: #333;
+    transform: scale(1.03);
+}
+img{
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Texto del botón */
+button h4{
+    margin: 0;
+    font-size: 16px;
+}
+.ingresar:hover{
+       background-color: rgb(214, 214, 93);
+    color: black;
+    border-color: rgb(5, 5, 5);
+}
+.icono{
+    width: 200px;
+    background-color: #333;
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    
+}
+.imagenIcono{
+    width: 70px;
+}
+.contenedor{
+    display: flex;
+    text-align: center;
+}
+.icono:hover{
+       background-color: rgb(214, 214, 93);
+    color: black;
+    border-color: rgb(5, 5, 5);
+    transition: 0.3s;
+}
