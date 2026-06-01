@@ -2,14 +2,14 @@ body{
     margin: 0;
     padding: 0;
     background-color: #1b1b1b;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 /* Contenedor login */
 .login{
     width: 350px;
     background-color: white;
-    margin: 100px auto;
+    margin: 10px auto;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
@@ -58,6 +58,7 @@ button{
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    text-align: center;
 }
 
 /* Hover botón */
@@ -104,4 +105,15 @@ button h4{
     color: black;
     border-color: rgb(5, 5, 5);
     transition: 0.3s;
+}
+
+.buttonCS{
+        width: 150px;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    display: block;
+    margin: auto;    
 }
