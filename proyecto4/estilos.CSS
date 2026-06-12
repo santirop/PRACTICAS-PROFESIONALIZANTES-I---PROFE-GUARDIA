@@ -117,3 +117,71 @@ button h4{
     display: block;
     margin: auto;    
 }
+.aIcon{
+    text-decoration: none;
+    color: white;
+    
+}
+.aIcon:hover{
+          background-color: rgb(214, 214, 93);
+    color: black;
+    border-color: rgb(5, 5, 5);
+    transition: 0.3s;
+}
+.iconoCP{
+    width: 200px;
+    background-color: #333;
+    padding: 50px;
+    margin-top: 150px;
+    margin-left: 525px;
+    border-radius: 15px;
+    color: white;   
+    border-color: #e6b980;
+    border: 10px;
+}
+.iconoCP input{
+      width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+table{
+        width: 30%;
+    border-style: double;
+    font-family: Arial, sans-serif;
+    color:white;
+    background-color: #555;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+th {
+    background: #222;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+td {
+    padding: 10px;
+    border-bottom: solid;
+}
+.contenedorP{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.precio{
+    width: 220px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+.imgPrecio{
+    width: 80px;
+}
