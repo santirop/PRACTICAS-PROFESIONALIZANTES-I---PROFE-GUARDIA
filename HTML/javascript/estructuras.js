@@ -44,3 +44,17 @@ let exp0=0;
 let result3=base3**exp0;
 console.log("El resultado con exponente igual a 0 es: "+result3);
 
+//Ejercicio 2
+
+let numMes=9;
+if(numMes<=12||numMes>0){
+if(numMes==1||numMes==3||numMes==5||numMes==7||numMes==8||numMes==10||numMes==12){
+console.log("El mes seleccionado tiene 31 dias");
+}else if(numMes==4||numMes==6||numMes==9||numMes==11) {
+console.log("El mes seleccionado tiene 30 dias");
+}else{
+    console.log("El mes seleccionado tiene 28 dias");
+}
+}else{
+    console.log("El numero ingresado no esta entre 1 y 12");
+}
