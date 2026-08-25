@@ -50,6 +50,7 @@ let numMes=9;
 if(numMes<=12||numMes>0){
 if(numMes==1||numMes==3||numMes==5||numMes==7||numMes==8||numMes==10||numMes==12){
 console.log("El mes seleccionado tiene 31 dias");
+
 }else if(numMes==4||numMes==6||numMes==9||numMes==11) {
 console.log("El mes seleccionado tiene 30 dias");
 }else{
